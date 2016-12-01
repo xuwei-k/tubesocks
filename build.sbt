@@ -43,8 +43,6 @@ buildInfoPackage := "tubesocks"
 
 crossScalaVersions ++= Seq("2.10.4", "2.11.1", "2.12.0")
 
-scalaVersion := crossScalaVersions.value.last
-
 publishTo := Some(Opts.resolver.sonatypeStaging)
 
 publishMavenStyle := true
